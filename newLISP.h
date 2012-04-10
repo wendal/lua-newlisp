@@ -1,0 +1,1 @@
+char * newlispEvalStr(char * cmd);
