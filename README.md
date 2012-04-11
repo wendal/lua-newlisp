@@ -7,7 +7,10 @@ Lua-newLISP包装器
 ---------------------------------------------
 
   * libnewlisp.so拷贝到/usr/lib
-  * 将newLISP.so访问lua的cpath
+  * 将newLISP.so拷贝到lua的cpath,或者编译一个
+  <pre>
+  gcc -O3 -Wall -shared -o newLISP.so -lnewlisp -llua newLISP.c
+  </pre>
 
 
 API
