@@ -24,9 +24,8 @@ API
 
 
 示例
----------------------------------------------
 
-  <pre>
+<pre>
   -- 载入newLISP库
   local lisp = require "newLISP"
 
@@ -45,5 +44,5 @@ API
   print(result)
 
   print("-----------------------------------------")
-  </pre>
+</pre>
   
